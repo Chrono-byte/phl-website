@@ -7,7 +7,7 @@ import { CardLists } from "./CardLists.ts";
 await CardLists.initializeAsync();
 
 /** Directory path for cached data */
-const CACHE_DIR = "./cache";
+const CACHE_DIR = "../.cache";
 /** Minimum delay between Scryfall API requests in milliseconds */
 const SCRYFALL_DELAY = 100; // 100ms = 10 requests per second maximum
 
